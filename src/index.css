@@ -1,0 +1,57 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  width:400px;
+  height: 90vh;
+  margin-left: 35%;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.inputcontainer1,.inputcontainer2, .amountinput{
+ display: flex;
+ flex-direction: column;
+ row-gap: 20px;
+ padding: 10px;
+ width: 100%;
+}
+
+#fromcurrency,#tocurrency ,#amount{
+  padding: 10px;
+}
+label{
+  color: purple;
+  font-size: large;
+}
+button{
+  color: white;
+  background-color: green;
+  padding: 5px 60px;
+  text-align: center;
+  margin-left: 30%;
+  font-size: 15px;
+}
+.converterdiv{
+  width:80%;
+  
+
+}
+
+h2{
+  text-align: center;
+  color:red;
+}
+
+p{
+  color: darkblue;
+  margin-left: 30%;
+}
+
+ 
+  
+
+  
+
+
